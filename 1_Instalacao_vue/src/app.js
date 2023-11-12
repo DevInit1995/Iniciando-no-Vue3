@@ -4,7 +4,8 @@ const MyNameApp = {
         return{
             name: "Jhon",
             age: 28,
-            input_name: ""
+            input_name: "",
+            input_age: 0
         }
     },
     methods: {
@@ -12,8 +13,10 @@ const MyNameApp = {
             e.preventDefault();
 
             console.log(this.input_name);
+            console.log(this.input_age);
 
             this.name = this.input_name;
+            this.age = this.input_age;
         }
     }
 }

@@ -14,8 +14,19 @@
             <input type="text" v-model="input_name" placeholder="Digite o seu nome">
             <input type="submit" value="Enviar" v-on:click="submitForm">
         </form>
+        <!---
+        <form id="app-age">
+            <input type="text" v-model="input_name" placeholder="Digite sua idade">
+            <input type="submit" value="Enviar" v-on:click="submitForm">
+        </form>
+        -->
         <p>O meu nome é: {{ name }}</p>
-        <p>Data bindig: {{ input_name }}</p>
+        <p>Data bindig name: {{ input_name }}</p>
+    
+        <!-- 
+        <p>A minha idade é: {{ age }}</p>
+        <p>Data binding age: {{ input_age }}</p>
+        -->
     </div>
 </body>
 </html>
