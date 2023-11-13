@@ -1,5 +1,8 @@
 <template>
-    <PrimeiroComponente/>
+    <div>
+        <PrimeiroComponente/>
+        <p>O dado do app é: {{ testando }}</p>
+    </div>
 </template>
 
 <script>
@@ -9,6 +12,11 @@ import PrimeiroComponente from './components/PrimeiroComponente.vue'
         name: 'App',
         components: {
             PrimeiroComponente
+        },
+        data(){
+            return {
+                testando: "Teste",
+            }
         }
     }
 </script>
