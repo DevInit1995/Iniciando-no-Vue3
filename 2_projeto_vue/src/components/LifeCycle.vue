@@ -7,7 +7,7 @@ export default {
     name: 'LifeCicle',
     data() {
         return {
-            nome: 'Ainda não sei',
+            nome: 'Ainda não',
         }
     },
     created() {
@@ -18,7 +18,7 @@ export default {
     mounted() {
         setTimeout(() => {
             this.nome = 'Jhon Jhon'
-        }, 2000);
+        }, 8000);
     }
 }
 </script>
